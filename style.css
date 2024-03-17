@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+.navbar{
+  height: 29px;
+  width: 100vw;
+  background-color: rgb(190, 179, 179);
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+.lower-navbar{
+  height: 40px;
+  width: 100vw;
+  padding: 10px;
+  background-color: rgb(245, 245, 203);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.lower-navbar h2{
+  margin-right: 10vw;
+}
+.inner-lower-navbar{
+  display: flex;
+  align-items: center;
+}
+.inner-lower-navbar h4{
+  margin-right: 5vw;
+}
+.content{
+  height: 530px;
+  width: 100vw;
+  padding: 10px 16px;
+  display: flex;
+  background-color: rgb(202, 202, 240);
+}
+.canvas-content{
+  height: 100%;
+  width: 45%;
+}
+#canvas{
+  position: relative;
+  border: 1px solid black;
+  background-color: white;
+  z-index: 10;
+}
+input{
+  position: absolute;
+  z-index: 100;
+  height: 25px;
+  width: 38px;
+  font-size: 12px;
+  outline: none;
+}
+.option-content{
+  height: 100%;
+  width: 54%;
+  margin-left: 10px;
+}
+button{
+  padding: 2px;
+}
+.right-top-btn{
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.right-mid-btn{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.data-table{
+  height: 200px;
+  width: 80%;
+  overflow-y: scroll;
+  border: 1px solid black;
+  background-color: white;
+}
+.inner-data-table{
+  height: 600px;
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.right-mid-btn2{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.right-bottom-btn{
+  margin-top: 16px;
+}
